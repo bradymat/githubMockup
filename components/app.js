@@ -24,7 +24,7 @@ class App extends React.Component {
 
   render () {
     return(
-      <div>
+      <div className='container'>
         <NavBar userImage={this.state.userImage}/>
         <ProfileBar
           userImage={this.state.userImage}

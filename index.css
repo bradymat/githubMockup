@@ -1,7 +1,12 @@
 body{
   margin-top: 0;
+  font-family: helvetica;
 }
 main {
+
+}
+.container{
+  min-width: 1200px;
   text-align: center;
 }
 .navBar{
@@ -15,7 +20,15 @@ main {
   width: 36px;
   height: 36px;
 }
-
+.navBar a{
+    display: block;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333;
+    text-decoration: none;
+}
 .navBar div{
   width: 3000px;
 }
