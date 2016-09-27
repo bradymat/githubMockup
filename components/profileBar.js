@@ -11,18 +11,11 @@ const ProfileBar = (props) => {
         <div><h3>{props.location}</h3></div>
         <div><h3>{props.joinDate}</h3></div>
         <div><h3>Organizations</h3></div>
-        <div><img src={props.organizations}/></div>
-
-
-
-
-        {/*name
-        username
-        bio
-        edit
-        location
-        joindate
-        orgs*/}
+        <div className='organizations'>{
+          props.organizations.map(function (organization) {
+            return <div><img src={organization.image}/></div>
+          })
+        }</div>
       </div>
     )
 }

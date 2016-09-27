@@ -21,5 +21,17 @@ main {
 }
 
 .profileBar{
-
+  float: left;
+  text-align: left;
+}
+.profileBar img{
+  width: 166px;
+  height: 166px;
+}
+.organizations{
+  display: flex;
+}
+.organizations img{
+  width: 36px;
+  height: 36px;
 }
